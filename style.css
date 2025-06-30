@@ -1,0 +1,116 @@
+h1 {
+    font-size: 46px;
+    color: #2C3E50; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(44, 62, 80, 0.2);
+    margin: 30px 0;
+    background: #e6f0fa;
+    padding: 30px;
+    border-bottom: 4px solid #5D8AA8;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #3C6E91;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #3C6E91;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3C6E91;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+}
+
+/* Sub-subheadings */
+h3 {
+    font-size: 30px;
+    color: #375772;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h3::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #375772;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -70px;
+}
+
+/* Big value text */
+.big-font {
+    font-size: 30px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.stButton > button {
+    border-radius: 12px;
+    border: 2px solid #3C6E91;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3C6E91;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    background-color: #2C3E50;
+}
+
+.css-1wa3eu0-placeholder,
+.css-1uccc91-singleValue {
+    color: #2C3E50 !important;
+    font-weight: 500;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.stSelectbox label,
+.stSelectbox div {
+    color: #2C3E50 !important;
+    opacity: 1 !important;
+}
+
+.stSidebar {
+    background-color: #f0f5fa;
+    padding: 15px;
+    border-right: 2px solid #d0dbe8;
+}
+
+/* Remove dropdown bar */
+.css-1okebmr-indicatorSeparator {
+    display: none;
+}
+
+.css-6j8wv5-Input {
+    color: #2C3E50 !important;
+    font-weight: 500;
+}

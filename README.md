@@ -80,8 +80,15 @@ The app will launch in your browser at: [http://localhost:8501](http://localhost
 
 ---
 
-### 📷 Screenshots (Optional)
+### 📷 Screenshots
 
 ```
+![Screenshot 2025-06-30 184441](https://github.com/user-attachments/assets/6c93ca33-f54e-45cb-bb13-4c1bd05f8383)
+
+Click on any of the options and start analysing
+
+![Screenshot 2025-06-30 184505](https://github.com/user-attachments/assets/e666b735-a288-4642-8637-d886be47af19)
+
+
 ```
 
